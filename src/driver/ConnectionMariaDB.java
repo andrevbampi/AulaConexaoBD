@@ -8,7 +8,7 @@ public class ConnectionMariaDB {
 	
 	private static String serverName = "localhost"; //Endereço do servidor. Se for a própria máquina, localhost. Se for máquina remota, IP do servidor;
 	private static String database = "curso2023"; //Nome do banco de dados/schema criado
-	private static String url = "jdbc:mariadb://" + serverName + "/" + database;
+	private static String url = "jdbc:mariadb://" + serverName + "/" + database; //Montando a URL de conexão
 	private static String username = "root"; //Nome do usuário do banco de dados
 	private static String password = "135790"; //Senha do usuário, se for o usuário root a senha foi cadastrada na instalação do MariaDB
 	
